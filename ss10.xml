@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xsd:schema xmlns="http://www.w3.org/2001/XMLSchema"
+            targetNamespace="http://www.example.de">
+    <xsd:element name="Flugplan">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="Saison" type="xsd:string">
+                <xsd:element name="Flüge">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element name="Flug" maxOccurs="unbounded">
+                                <xsd:complexType>
+                                    <xsd:sequence>
+                                        <xsd:element name="Startflughafen" type="xsd:string">
+                                        <xsd:element name="Zielflughafen" type="xsd:string">
+                                        <xsd:element name="Uhrzeit">
+                                        <xsd:element name="Wochentag">
+                                        <xsd:element name="Zusatzinfo" minOccurs="0">
+                                        </xsd:element>
+                                        </xsd:element>
+                                        </xsd:element>
+                                        </xsd:element>
+                                        </xsd:element>
+                                    </xsd:sequence>
+                                </xsd:complexType>
+                            </xsd:element>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                </xsd:element>
+                </xsd:element>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+</xsd:schema>

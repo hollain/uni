@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xsd:schema xmlns="http://www.w3.org/2001/XMLSchema"
+            targetNamespace="http://www.example.de">
+    <xsd:element name="Raumbuchung">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="Raum" type="xsd:string">
+                <xsd:element name="Schulung" type="xsd:string">
+                <xsd:element name="Ansprechpartner" type="xsd:string">
+                <xsd:element name="Freitext" type="xsd:string" minOccurs="0">
+                <xsd:element name="Zeitraum">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element name="Tag" maxOccurs="unbounded">
+                                <xsd:complexType>
+                                    <xsd:sequence>
+                                        <xsd:element name="Datum" type="xsd:string">
+                                        </xsd:element>
+                                    </xsd:sequence>
+                                </xsd:complexType>
+                            </xsd:element>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                </xsd:element>
+                </xsd:element>
+                </xsd:element>
+                </xsd:element>
+                </xsd:element>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+</xsd:schema>
