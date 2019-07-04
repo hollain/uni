@@ -14,7 +14,9 @@
                             <xsd:element name="Tag" maxOccurs="unbounded">
                                 <xsd:complexType>
                                     <xsd:sequence>
-                                        <xsd:element name="Datum" type="xsd:string">
+                                        <xsd:element name="Datum" type="xsd:date">
+                                        <xsd:element name="AnzahlTage" type="xsd:integer" minOccurs="0">
+                                        </xsd:element>
                                         </xsd:element>
                                     </xsd:sequence>
                                 </xsd:complexType>
