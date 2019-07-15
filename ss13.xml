@@ -10,16 +10,11 @@
                             <xsd:element name="Matrial" maxOccurs="1">
                                 <xsd:complexType>
                                     <xsd:sequence>
-                                        <xsd:element name="Material_ID" type="xsd:integer">
-                                        <xsd:element name="Lieferabruf_ID" type="xsd:integer">
-                                        <xsd:element name="Materialbezeichnung" type="xsd:string">
-                                        <xsd:element name="Menge" type="xsd:integer">
-                                        <xsd:element name="Datum" type="xsd:integer">
-                                        </xsd:element>
-                                        </xsd:element>
-                                        </xsd:element>
-                                        </xsd:element>
-                                        </xsd:element>
+                                        <xsd:element name="Material_ID" type="xsd:integer"></xsd:element>
+                                        <xsd:element name="Lieferabruf_ID" type="xsd:integer"></xsd:element>
+                                        <xsd:element name="Materialbezeichnung" type="xsd:string"></xsd:element>
+                                        <xsd:element name="Menge" type="xsd:integer"></xsd:element>
+                                        <xsd:element name="Datum" type="xsd:integer"></xsd:element>
                                     </xsd:sequence>
                                 </xsd:complexType>
                             </xsd:element>

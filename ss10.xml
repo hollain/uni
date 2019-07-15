@@ -11,16 +11,11 @@
                             <xsd:element name="Flug" maxOccurs="unbounded">
                                 <xsd:complexType>
                                     <xsd:sequence>
-                                        <xsd:element name="Startflughafen" type="xsd:string">
-                                        <xsd:element name="Zielflughafen" type="xsd:string">
-                                        <xsd:element name="Uhrzeit">
-                                        <xsd:element name="Wochentag">
-                                        <xsd:element name="Zusatzinfo" minOccurs="0">
-                                        </xsd:element>
-                                        </xsd:element>
-                                        </xsd:element>
-                                        </xsd:element>
-                                        </xsd:element>
+                                        <xsd:element name="Startflughafen" type="xsd:string"></xsd:element>
+                                        <xsd:element name="Zielflughafen" type="xsd:string"></xsd:element>
+                                        <xsd:element name="Uhrzeit"></xsd:element>
+                                        <xsd:element name="Wochentag"></xsd:element>
+                                        <xsd:element name="Zusatzinfo" minOccurs="0"></xsd:element>
                                     </xsd:sequence>
                                 </xsd:complexType>
                             </xsd:element>
